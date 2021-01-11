@@ -7,7 +7,7 @@ int main()
 	
 	printf("Before swapping \n firstNum = %d \n secondNum = %d \n", firstNum, secondNum);
 	
-	// Swapping
+	// Swapping two numbers without the use of 3rd variable
 	firstNum = firstNum + secondNum; // firstNum = 10 + 5 = 15
 	secondNum = firstNum - secondNum; // secondNum = 15 - 5 = 10
 	firstNum = firstNum - secondNum; // firstNum = 15 - 10 = 5
