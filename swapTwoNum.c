@@ -6,7 +6,6 @@ int main()
 	int secondNum = 5;
 	
 	printf("Before swapping \n firstNum = %d \n secondNum = %d \n", firstNum, secondNum);
-																	  //10       //5
 	
 	// Swapping
 	firstNum = firstNum + secondNum; // firstNum = 10 + 5 = 15
@@ -14,5 +13,6 @@ int main()
 	firstNum = firstNum - secondNum; // firstNum = 15 - 10 = 5
 	
 	printf("\nAfter swapping \n firstNum = %d \n secondNum = %d", firstNum, secondNum);
-																	//5			//10
+	
+	return 0;
 }
